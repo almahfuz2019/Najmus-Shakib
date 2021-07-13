@@ -219,12 +219,14 @@ body{
         
         
         border-radius: 50%;
+        margin-bottom:45px;
         
         
     }
     .pic-aboutmyself p{
         padding: 0px 15px;
         color: white;
+        text-align: center;
         
     }
     .skills{
@@ -273,7 +275,7 @@ body{
 
 
     .ico{
-        padding-right: 50px;
+        padding-right: 40px;
         margin-left: 0px;
         
         
