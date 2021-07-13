@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(135deg, #f5af19 10%, #f12711 100%);
+    background-image: linear-gradient(135deg, #f5af19 100%, #f12711 10%);
 }
 .first-page-background{
     height: 650px;  
