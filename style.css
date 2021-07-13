@@ -346,6 +346,7 @@ grid-template-columns: repeat(3,1fr);
     transform:scale(1.1);
     transition: 1s;
     overflow: hidden;
+    box-shadow: 0px 0px 30px 0px black;
 }
 
 
@@ -356,7 +357,8 @@ grid-template-columns: repeat(3,1fr);
     
    
     padding-top: 20px;
-    border-top: 2px dotted white;
+    border-top: 5px double rgb(255, 255, 255);
+    border-radius: 60px 60px 0px 0px;
 }
 .foter-item{
     
@@ -371,6 +373,11 @@ grid-template-columns: repeat(3,1fr);
 .foter p{
     text-align: center;
     color: white;
+   
+}
+.pol{
+    background-color: black;
+    margin-top: 10px;
 }
 .foter-item img{
     width: 200px;
@@ -610,6 +617,232 @@ grid-template-columns: repeat(3,1fr);
 }
 /*tablat*/
 @media only screen and (min-width: 600px) and (max-width:992px) {
+    .first-page-text p {
+        font-size: 2.5em;
+        
+    }
+    .first-page-background{
+        height: 680px;  }
+    .logo{
+        font-size: 2.5em;
+    }
+    .navbar{
+        display: none;
+        width: 100%;
+    }
+  
+    .second-full-page h3{
+        font-size: 2.5em;
+        padding: 20px 0px;
+    }
+    
+    .pic-aboutmyself{
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        flex-direction: column;
+    }
+    .pic-aboutmyself img{
+        height: 40%;
+        width: 40%;
+        margin: 3% 7%;
+        
+        
+        border-radius: 50%;
+        margin-bottom:45px;
+        
+        
+    }
+    .pic-aboutmyself p{
+        padding: 0px 15px;
+        color: white;
+        text-align: center;
+        
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+       row-gap: 30px;
+      
+       
+    }
+    .mm{
+        justify-content: end;
+       align-items: center;
+       margin-left: auto;
+    }
+    .skill ,.mm{
+        margin: 0px 0px;
+    }
+    .skill p{
+        text-decoration:;
+    }
+    .skill{
+        width: 300px;
+        align-items: center;
+        
+        margin: 0 auto;
+        
+        
+        
+        
+    }
+    .ico i{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        padding: 0px 5px;
+        
+        
+        
+    }
+
+    
+    .ico i:hover{
+        color: orangered;
+    }
+
+
+
+    .ico{
+        padding-right: 40px;
+        margin-left: 0px;
+        
+        
+        
+    }
+    .first-page-text{
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .skills{
+        margin: 20px;
+        
+    }
+    /*thirdpage*/
+    .third-page-card a{
+        font-size: 24px;
+        
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .third-pagecard{
+        display: grid;
+        grid-row-gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        
+            
+        }
+        .third-page-card{
+            
+            
+            text-align: center;
+            float:center;
+            margin: 0 auto;
+            padding: 30px;
+            
+           
+            background-color: white;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 0px  rgb(0, 0, 0);
+        
+        }
+        .how-can{
+            font-size: 2em;
+            padding:100px 0px;
+            text-align: center;
+            font-weight: bolder;
+            color: white;
+        }
+        .icoo{
+            font-size: 50px;
+            color: white;
+            
+            padding: 24px;
+            border-radius:100%;
+            transition:2s;
+        }
+        /*fourth-pagr*/
+        
+
+.full-fourth-page{
+   
+    
+}
+.full-fourth-page p{
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.album{
+    
+}
+.galary{
+    display:grid;
+    margin: -40px 0px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+    
+   
+}
+.galary img{
+    
+    background-repeat: no-repeat;
+    height: 100px;
+    border: 2px solid white;
+    margin: 10px 0px;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+
+    
+    
+}
+.foter{
+    
+   margin-top: 50px;
+    
+}
+.foter-item{
+    
+    
+}
+.foter-item i{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+
+    
+    
+    margin-right: 6px;
+}
+.foter p{
+    text-align: center;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.692);
+}
+.foter-item img{
+    width: 150px;
+    margin-left: 20px;
+}
+.skil{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration:underline;
+    margin-bottom: 60px;
+}
+
 
     
 }
