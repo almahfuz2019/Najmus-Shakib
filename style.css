@@ -21,11 +21,11 @@ body{
    
 }
 .ico{
-    margin-left: 223px;
+    margin-left: 170px;
 
 }
 .ico i:hover{
-    color: #f12711;
+    color: #f5af19 ;
     transform: rotateY(360deg);
     transition: 1s;
 }
@@ -57,7 +57,7 @@ body{
     
 }
 .navbar a:hover{
-    color: #f12711;
+    color:  #ffc341;
     transition: 1.5s;
 }
 .first-page-text p{
@@ -263,26 +263,26 @@ grid-template-columns: repeat(3,1fr);
 .icoo{
     font-size: 50px;
     color: white;
-    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
+    background-image: linear-gradient(135deg, #f5af19 100%, #f12711 10%);
     padding: 24px;
     border-radius:100%;
     transition:2s;
 }
 .icoo:hover{
     
-    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
+    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 10%);
     transition:2s;
     transform: rotate(360deg);
 
 }
 .third-page-card a{
     font-size: 24px;
-    color: #f12711;
+    color: #f5af19;
     text-decoration: none;
     font-weight: 600;
 }
 .third-page-card a:hover{
-    color: #f12711;
+    color: #634a16;
     transition:1s;
 }
 .third-page-card p{
@@ -350,18 +350,13 @@ grid-template-columns: repeat(3,1fr);
 
 
 
-hr{
-    color: white;
-    
-    height: 1px;
-    align-items: center;
-    margin: 0;
-}
+
 
 .foter{
     
    
     padding-top: 20px;
+    border-top: 2px dotted white;
 }
 .foter-item{
     
@@ -370,7 +365,7 @@ hr{
     font-size: 40px;
     color: white;
     float: right;
-    text-shadow: 0 0 8px#f12711;, 0 0 5px #ffffff;
+    text-shadow: 0 0 8px#f12711;
     margin-right: 6px;
 }
 .foter p{
@@ -379,7 +374,7 @@ hr{
 }
 .foter-item img{
     width: 200px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 /*media quary*/
@@ -552,6 +547,7 @@ hr{
 }
 .galary{
     display:grid;
+    margin: -40px 0px;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -576,8 +572,8 @@ hr{
 }
 .foter{
     
-   
-    padding-top: 10px;
+   margin-top: 50px;
+    
 }
 .foter-item{
     
