@@ -1,10 +1,12 @@
 body{
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(135deg, #f5af19 10%, #f12711 100%);
 }
 .first-page-background{
     height: 650px;  
     filter: blur(px);
+    
     background-image: radial-gradient(rgb(36, 33, 33),rgb(0, 0, 0));
     
 }
@@ -23,7 +25,9 @@ body{
 
 }
 .ico i:hover{
-    color: orangered;
+    color: #f12711;
+    transform: rotateY(360deg);
+    transition: 1s;
 }
 .logo{
     color: rgb(255, 255, 255);
@@ -53,7 +57,7 @@ body{
     
 }
 .navbar a:hover{
-    color: orangered;
+    color: #f12711;
     transition: 1.5s;
 }
 .first-page-text p{
@@ -77,7 +81,7 @@ body{
    text-align: center;
    align-items: center;
    text-decoration: none;
-   background-color: orangered;
+   background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
    color: white;
    font-size: 1.5em;
    padding: 10px 30px;
@@ -85,7 +89,7 @@ body{
    transition: 1.5s;
 }
 .first-page-text a:hover{
-    background-color: orangered;
+    background-image: linear-gradient(135deg, #d42a17 10%, #d39716 100%);
     box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
     transition: 1s;
 }
@@ -99,28 +103,42 @@ body{
     margin: 3% 7%;
   
    box-shadow: 0px 0px 20px 0px  rgb(0, 0, 0);
-   border: 1px double orangered;
+   border: 2px double white;
     
     border-radius: 50%;
     
     
+}
+.pic-aboutmyself img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
 }
 .pic-aboutmyself p{
     color: rgba(0, 0, 0, 0.678);
     
 }
 .second-full-page{
-    background-color: rebeccapurple;
+    
     padding-bottom: 70px;
-    background-color: orangered;
     
     
-    background-imae: linear-gradient(white,rgb(156, 156, 154));
+    
+    
+    
 }
 .pic-aboutmyself{
     display: flex;
     align-items: center;
     font-size: 1.3em;
+}
+.skil{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration:underline;
+    margin-bottom: 60px;
 }
 .skill .progress-bar{
     
@@ -136,8 +154,8 @@ body{
 .skill h5{
     height: 15px;
     width: 200px;
-    background-color: red;
-    border: 5px solid green;
+    
+    border: 5px solid #f12711;
     margin-left: 30px;
 
 }
@@ -170,8 +188,9 @@ body{
     color: white;
 }
 .second-full-page h3{
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
+    color: black;
     font-weight: 900;
     padding: 40px 0px 0px 0px;
 
@@ -204,9 +223,9 @@ body{
 
 
 .third-pages{
-   background-color: orangered;
-   padding-bottom:100px;
-   border-top: 2px solid white;
+    
+   border-top: px solid white;
+   border-bottom: px solid white ;
 }
 .third-pagecard{
 display: grid;
@@ -226,11 +245,17 @@ grid-template-columns: repeat(3,1fr);
     height: 100%;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px  rgb(0, 0, 0);
+    transition: 3s;
 
 }
+.third-page-card:hover{
+    transform: rotateX(360deg);
+    transition: 1s;
+}
 .how-can{
-    font-size: 2.5em;
+    font-size:3em;
     padding:100px 0px;
+    text-decoration: underline;
     text-align: center;
     font-weight: bolder;
     color: white;
@@ -238,25 +263,26 @@ grid-template-columns: repeat(3,1fr);
 .icoo{
     font-size: 50px;
     color: white;
-    background-image: linear-gradient(orangered,rgba(255, 68, 0, 0.57));
+    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
     padding: 24px;
     border-radius:100%;
     transition:2s;
 }
 .icoo:hover{
     
-    background-image: linear-gradient(orangered,rgba(255, 68, 0, 0.316));
+    background-image: linear-gradient(135deg, #f12711 10%, #f5af19 100%);
     transition:2s;
+    transform: rotate(360deg);
 
 }
 .third-page-card a{
     font-size: 24px;
-    color: orangered;
+    color: #f12711;
     text-decoration: none;
     font-weight: 600;
 }
 .third-page-card a:hover{
-    color:orangered;
+    color: #f12711;
     transition:1s;
 }
 .third-page-card p{
@@ -283,11 +309,13 @@ grid-template-columns: repeat(3,1fr);
 
 
 .full-fourth-page{
-    background-color: orangered;
+    
+   
     
 }
 .full-fourth-page p{
-    font-size: 2.5em;
+    font-size: 3em;
+    text-decoration: underline;
     padding:100px 0px;
     text-align: center;
     font-weight: bolder;
@@ -299,7 +327,7 @@ grid-template-columns: repeat(3,1fr);
 .galary{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 20px 50px;
+    padding: 10px 50px;
     
    
 }
@@ -310,14 +338,49 @@ grid-template-columns: repeat(3,1fr);
     border: 2px solid white;
     margin: 10px 0px;
     align-items: center;
+    overflow: hidden;
     
-    
-    
-
-    
-    
+   
+}
+.galary img:hover{
+    transform:scale(1.1);
+    transition: 1s;
+    overflow: hidden;
 }
 
+
+
+hr{
+    color: white;
+    
+    height: 1px;
+    align-items: center;
+    margin: 0;
+}
+
+.foter{
+    
+   
+    padding-top: 20px;
+}
+.foter-item{
+    
+}
+.foter-item i{
+    font-size: 40px;
+    color: white;
+    float: right;
+    text-shadow: 0 0 8px#f12711;, 0 0 5px #ffffff;
+    margin-right: 6px;
+}
+.foter p{
+    text-align: center;
+    color: white;
+}
+.foter-item img{
+    width: 200px;
+    margin-left: 70px;
+}
 
 /*media quary*/
 /*media quary*/
@@ -456,7 +519,7 @@ grid-template-columns: repeat(3,1fr);
         
         }
         .how-can{
-            font-size: 2.5em;
+            font-size: 2em;
             padding:100px 0px;
             text-align: center;
             font-weight: bolder;
@@ -474,12 +537,12 @@ grid-template-columns: repeat(3,1fr);
         
 
 .full-fourth-page{
-    background-color: orangered;
+   
     
 }
 .full-fourth-page p{
-    font-size: 2.5em;
-    padding:100px 0px;
+    font-size: 2em;
+    text-decoration: underline;
     text-align: center;
     font-weight: bolder;
     color: white;
@@ -492,7 +555,7 @@ grid-template-columns: repeat(3,1fr);
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    padding: 0px 20px;
+    
     
    
 }
@@ -510,6 +573,42 @@ grid-template-columns: repeat(3,1fr);
 
     
     
+}
+.foter{
+    
+   
+    padding-top: 10px;
+}
+.foter-item{
+    
+    
+}
+.foter-item i{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+
+    
+    text-shadow: 0 0 8px#f12711;, 0 0 5px #ffffff;
+    margin-right: 6px;
+}
+.foter p{
+    text-align: center;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.692);
+}
+.foter-item img{
+    width: 150px;
+    margin-left: 20px;
+}
+.skil{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration:underline;
+    margin-bottom: 60px;
 }
 
 }
