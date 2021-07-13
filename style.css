@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.first-page-background{
+    height: 650px;  
+    filter: blur(px);
+    background-image: radial-gradient(rgb(36, 33, 33),rgb(0, 0, 0));
+    
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 800;
+    margin-left: 5%;
+    font-family: 'Zen Tokyo Zoo', cursive;
+
+}
+.logo-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+
+}
+.navbar a{
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    transition: 1.5s;
+    
+
+    
+}
+.navbar a:hover{
+    color: orangered;
+    transition: 1.5s;
+}
+.first-page-text p{
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+    line-height: 60px;
+   
+
+}
+.first-page-text{
+    text-align: center;
+    margin-top: -70px;
+}
+.first-page-text a{
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   text-decoration: none;
+   background-color: orangered;
+   color: white;
+   font-size: 1.5em;
+   padding: 10px 30px;
+   border-radius: 30px;
+   transition: 1.5s;
+}
+.first-page-text a:hover{
+    background-color: rgba(255, 68, 0, 0.678);
+    box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
+    transition: 1s;
+}
+.navbar{
+    margin-right: 30px;
+
+}
+.pic-aboutmyself img{
+    height: 20%;
+    width: 20%;
+    margin: 3% 7%;
+  
+   box-shadow: 0px 0px 20px 0px  rgb(0, 0, 0);
+   border: 1px double orangered;
+    
+    border-radius: 50%;
+    
+    
+}
+.pic-aboutmyself p{
+    color: rgba(0, 0, 0, 0.678);
+    
+}
+.second-full-page{
+    background-color: rebeccapurple;
+    padding-bottom: 30px;
+    background-color: orangered;
+    
+    background-imae: linear-gradient(white,rgb(156, 156, 154));
+}
+.pic-aboutmyself{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+.skill .progress-bar{
+    
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   column-gap:30px ;
+   row-gap: 30px;
+  
+   
+}
+.skill h5{
+    height: 15px;
+    width: 200px;
+    background-color: red;
+    border: 5px solid green;
+    margin-left: 30px;
+
+}
+.progress-bar{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    
+}
+.mm{
+    justify-content: end;
+   align-items: center;
+   margin-left: auto;
+}
+.skill ,.mm{
+    margin: 0px 100px;
+}
+.skill{
+    width: 400px;
+    align-items: center;
+    margin: ;
+    
+    
+    
+}
+.skill p{
+    color: white;
+}
+.pic-aboutmyself p{
+    color: white;
+}
+.second-full-page h3{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 900;
+    padding: 40px 0px 0px 0px;
+
+
+
+
+    
+}
+
+
+
+
+/*media quary*/
+/*media quary*/
+/*mobile */
+@media only screen and (max-width:688px){
+    .first-page-text p {
+        font-size: 2em;
+        
+    }
+    .first-page-background{
+        height: 500px;  }
+    .logo{
+        font-size: 2em;
+    }
+    .navbar{
+        display: none;
+        width: 100%;
+    }
+  
+    .second-full-page h3{
+        font-size: 2em;
+        padding: 20px 0px;
+    }
+    
+    .pic-aboutmyself{
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        flex-direction: column;
+    }
+    .pic-aboutmyself img{
+        height: 40%;
+        width: 40%;
+        margin: 3% 7%;
+        
+        
+        border-radius: 50%;
+        
+        
+    }
+    .pic-aboutmyself p{
+        padding: 0px 15px;
+        color: rgba(255, 255, 255, 0.678);
+        
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+       row-gap: 30px;
+      
+       
+    }
+    .mm{
+        justify-content: end;
+       align-items: center;
+       margin-left: auto;
+    }
+    .skill ,.mm{
+        margin: 0px 0px;
+    }
+    .skill p{
+        text-decoration: underline;
+    }
+    .skill{
+        width: 300px;
+        align-items: center;
+        
+        margin: 0 auto;
+        
+        
+        
+        
+    }
+    .first-page-text{
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .skills{
+        margin: 20px;
+        
+    }
+}
+/*tablat*/
+@media only screen and (min-width: 600px) and (max-width:992px) {
+
+    
+}
