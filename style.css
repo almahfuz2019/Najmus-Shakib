@@ -87,9 +87,11 @@ body{
    padding: 10px 30px;
    border-radius: 30px;
    transition: 1.5s;
+   box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
+   transition: 1s;
 }
 .first-page-text a:hover{
-    background-image: linear-gradient(135deg, #d42a17 10%, #d39716 100%);
+    background-image: linear-gradient(135deg, #d42a17 100%, #d39716 10%);
     box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
     transition: 1s;
 }
