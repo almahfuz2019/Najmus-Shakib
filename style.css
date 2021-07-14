@@ -359,8 +359,8 @@ grid-template-columns: repeat(3,1fr);
     
    
     padding-top: 20px;
-    border-top: 5px double rgb(255, 255, 255);
-    border-radius: 60px 60px 0px 0px;
+    border-top: 5px solid rgb(255, 255, 255);
+   background-color: black;
 }
 .foter-item{
     
